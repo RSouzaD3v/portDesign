@@ -1,0 +1,49 @@
+.portfolio{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.portfolio .header-port{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio .header-port a{
+    border: 1px solid blue;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.portfolio .header-port a:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.projetos{
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #bbb;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    width: 100%;
+    filter: grayscale(90%);
+}
+.card img:hover{
+    filter: grayscale(0);
+}

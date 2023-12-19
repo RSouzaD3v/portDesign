@@ -1,0 +1,39 @@
+.sobre{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.leftSobre{
+    max-width: 670px;
+}
+.leftSobre h1{
+    margin-bottom: 20px;
+}
+
+.leftSobre p > a{
+    color: blue;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.rightSobre{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 10px;
+}
+.rightSobre img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 780px) {
+    .sobre{
+        justify-content: center;
+        gap: 50px;
+    }
+}
